@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "life_at_prowesses",
+  "info": {
+    "singularName": "life-at-prowess",
+    "pluralName": "life-at-prowesses",
+    "displayName": "Life at Prowess"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "occasion": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "awsImageUrl": {
+      "type": "text"
+    }
+  }
+}
